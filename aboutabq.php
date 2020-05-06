@@ -41,40 +41,23 @@
   <div class="aboutABQ">
     <img src="logofund.png" class="vertLogo">
   <div class="text">
-    <p>
-      One Albuquerque is more than a slogan; it’s
-      an aspiration, a call to action,<br> a 
-      reminder that the best way to tackle our challenges
-      is by facing them<br> together. 
-      Not one leader alone can fix our problems. We’ve each got
-      to step<br> up for
-      our block, our neighborhood.
-    </p>
+    <?php perch_content('aboutAbq'); ?>
   </div>
   </div>
   <div class="board">
-    <h1><b>Board Of Directors</b></h1>
+    <?php perch_content('boardHeading'); ?>
   <div class="charles container-fluid"> 
     <div class="row">
       <div class="col-md-4">
-        <img src="charles-headshot.png" class="charlesPic">
+        <?php perch_content('firstBoardPic'); ?>
       </div>
       <div class="col-md-8">
         <div class="info">
-          <h5><b>CHARLES ASHLEY III</b></h5>
-          <h5><em>President</em></h5>
+          <?php perch_content('firstBoardName'); ?>
+              <?php perch_content('firstBoardTItle'); ?>
         </div>
       <div class="pSpace">
-        <p>
-          Charles is President & Founder of Cultivating Coders, a New Mexico based<br>
-          company that provides training and curriculum in web and mobile application<br>
-          development to K-12 schools in tribal, rural and overlooked urban areas.<br>
-          Charles is equal parts successful businessman and compassionate community<br>
-          advocate. He is the type of person who can identify a better way to do<br>
-          something and execute on it. For this reason, he’s hopeful that his passion for<br>
-          educational opportunity, combined with his business acumen, can contribute<br>
-          to the positive growth in Albuquerque.
-        </p> 
+        <?php perch_content('firstBoardInfo'); ?> 
       </div>
       </div>
     </div>
@@ -82,23 +65,13 @@
   <div class="drew container-fluid">
     <div class="row">
       <div class="col-md-4">
-        <img src="drew-headshot.png" class="drewPic">
+        <?php perch_content('secondBoardPic'); ?>
       </div>
       <div class="col-md-8">
-        <h5><b>DREW DOLAN</b></h5>
-        <h5><em>Vice President & Treasurer</em></h5>
+        <?php perch_content('secondBoardName'); ?>
+        <?php perch_content('secondBoardTItle'); ?>
       <div class="pSpace2">
-        <p>
-          Drew is a real estate investment and development professional with twenty<br>
-          years of experience raising capital contributions, acquisitions, project design<br>
-          and construction, and securing permanent financing from local and national<br>
-          lending institutions. Drew manages investment structure, investor relations,<br>
-          and debt/equity procurement for Titan Development Real Estate Fund I.<br>
-          Drew has also championed a growing self-storage portfolio by establishing <br>
-          a strategic relationship with Extra Space Storage. Through Drew’s broad<br>
-          network of business and philanthropic relationships, he hopes to bring<br>
-          together those who believe in maximizing Albuquerque’s potential.<br>
-        </p>
+       <?php perch_content('secondBoardInfo'); ?>
       </div>
       </div>
     </div>
@@ -106,21 +79,13 @@
   <div class="pilar container-fluid">
     <div class="row">
       <div class="col-md-4">
-        <img src="pilar-headshot.png" class="pilarPic">
+        <?php perch_content('thirdBoardPic'); ?>
       </div>
       <div class="col-md-8">
-        <h5><b>PILAR WESTELL</b></h5>
-        <h5><em>Secretary</em></h5>
+        <?php perch_content('thirdBoardName'); ?>
+        <?php perch_content('thirdBoardTItle'); ?>
       <div class="pSpace3">
-        <p>
-          Pilar, a proud native New Mexican, is passionate about her community. She has<br>
-          had the deep pleasure for the last six years of owning and operating her own<br> 
-          business, a prominent coffee shop with two locations in downtown<br>
-          Albuquerque named Zendo. Pilar believes, from experience, that her<br> 
-          community, her family, and her staff together create that unshakeable<br>
-          structure. She looks forward to contributing to her community, this amazing<br>
-          place she calls home, through her participation in COAF’s operation.<br>
-        </p>
+        <?php perch_content('thirdBoardInfo'); ?>
       </div>
       </div>
     </div>
