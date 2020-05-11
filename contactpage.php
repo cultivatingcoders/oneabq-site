@@ -26,7 +26,7 @@
       <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
       <li><a href="priorities.php" style=font-size:15px;>Initiatives</a></li>
       <li class="activeNav"><a href="sponsorspage.php"style=font-size:15px>Sponsors</a></li>
-      <li class="activeNav"><a href="outcomespage.php"style=font-size:15px>Outcomes</a></li>
+      <li class="activeNav"><a href="outcomes.php"style=font-size:15px>Outcomes</a></li>
       <li class="activeNav"><a href="contactpage.php" style=font-size:15px><font color="red";>Contact</font></a></li>
       <a href="donate.php"><button class="buttonDonate">Donate</button></a>
     </ul>
@@ -65,11 +65,11 @@
     <img src="abqhoriz2.png" class="footerLogo"> 
   </div>
   <div class="col-md-4 , links">
-    <a href="oneabqhome.html"><p><b>Home</b></p></a>
+    <a href="oneabqhome.php"><p><b>Home</b></p></a>
     <p><b>About</b></p>
     <a href="priorities.php"><p><b>Initiatives</b></p></a>
-    <a href="contactpage.php"><p><b>Sponsors</b></p></a>
-    <a href="contactpage.php"><p><b>Outcomes</b></p></a>
+    <a href="sponsorspage.php"><p><b>Sponsors</b></p></a>
+    <a href="outcomes.php"><p><b>Outcomes</b></p></a>
     <a href="donate.php"><p><b>Donate</b></p></a>
     <a href="contactpage.php"><p><b>Contact</b></p></a>
   </div>
